@@ -1,13 +1,15 @@
 package main
+
 // Con package es la palabra que empiezan todos los archivos de go
 // Como el archivo se llama main y esta en la carpeta principal, será package main
 // Para otros casos, como en el carpeta de utils, el package será package utils, ya
 // ya que se encuentra en la carpeta de utils
 
 import (
-	"utils"
 	"fmt"
-	"nomuyutils"
+
+	"github.com/cabritavazquez/learningGo/1-Test/nomuyutils"
+	"github.com/cabritavazquez/learningGo/1-Test/utils"
 )
 
 func main() {
